@@ -3,15 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <title>🧟 RANKED TURNER BOYZ</title>
+
+  <!-- Firebase -->
   <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+  <!-- Tipografías de terror -->
   <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Metal+Mania&family=Nosifer&family=Butcherman&family=Chiller&display=swap" rel="stylesheet">
+
+  <!-- Estilos básicos -->
   <style>
-    /* Copia aquí tu CSS inline (o enlaza a un archivo externo si prefieres) */
+    body {
+      background-color: black;
+      color: #00ffcc;
+      font-family: 'Metal Mania', cursive;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-family: 'Creepster', cursive;
+      font-size: 48px;
+      color: red;
+      margin-bottom: 20px;
+    }
+
+    #ranking {
+      margin-top: 30px;
+      font-size: 24px;
+    }
+
+    .jugador {
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 <body>
-  <!-- Tu contenido HTML completo -->
+  <h1>🧟 RANKING TURNER BOYZ 🧟</h1>
+  <div id="ranking">
+    Cargando datos del ranking...
+  </div>
+
   <script src="scripts.js"></script>
 </body>
 </html>
