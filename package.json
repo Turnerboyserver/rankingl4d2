@@ -1,0 +1,14 @@
+{
+  "name": "rankingl4d2",
+  "version": "1.0.0",
+  "description": "Leaderboard Dark Theme para Left 4 Dead 2",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "firebase": "^8.10.1"
+  }
+}
